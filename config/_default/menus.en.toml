@@ -73,7 +73,7 @@ weight = 5
 # footer menu left
 [[footer_left]]
 name = "Quick Start"
-url = "https://microcks.io/documentation/getting-started/"
+url = "./documentation/getting-started/"
 
 # footer menu middle
 [[footer_middle]]

@@ -35,10 +35,10 @@
 
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
-      {{ partialCached "essentials/footer.html" . }}
+      {{ partialCached "footer.html" . }}
       {{ partialCached "essentials/script.html" . }}
     {{ else }}
-      {{ partial "essentials/footer.html" . }}
+      {{ partial "footer.html" . }}
       {{ partial "essentials/script.html" . }}
     {{ end }}
   </body>

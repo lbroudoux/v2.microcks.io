@@ -84,19 +84,22 @@ A simple button can bring considerable usability improvement! We scratched our h
 
 > See those features in action in the screenshots below. Click on screenshots to access the whole image and get details.
 
-<div style="display: flex; justify-content: center;">
-  <a href="/images/blog/microcks-1.8.0-copy-curl.png" class="ph1" style="height: 200px; max-width: 22%" target="blank">
-    <img src="/images/blog/microcks-1.8.0-copy-curl.png" style="height: 200px; max-width: 100%;" />
-  </a>
-  <a href="/images/blog/microcks-1.8.0-add-to-ci.png" class="ph1" style="height: 200px; max-width: 22%;" target="blank">
-    <img src="/images/blog/microcks-1.8.0-add-to-ci.png" style="height: 200px; max-width: 100%;" />
-  </a>
-  <a href="/images/blog/microcks-1.8.0-test-help.png" class="ph1" style="height: 200px; max-width: 22%;" target="blank">
-    <img src="/images/blog/microcks-1.8.0-test-help.png" style="height: 200px; max-width: 100%;" />
-  </a>
-  <a href="/images/blog/microcks-1.8.0-help-modal.png" class="ph1" style="height: 200px; max-width: 22%;" target="blank">
-    <img src="/images/blog/microcks-1.8.0-help-modal.png" style="height: 200px; max-width: 100%;"/>
-  </a>
+<div class="swiper single-slider">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      {{< image src="images/blog/microcks-1.8.0-copy-curl.png" >}}
+    </div>
+    <div class="swiper-slide">
+      {{< image src="images/blog/microcks-1.8.0-add-to-ci.png" >}}
+    </div>
+    <div class="swiper-slide">
+      {{< image src="images/blog/microcks-1.8.0-test-help.png" >}}
+    </div>
+    <div class="swiper-slide">
+      {{< image src="images/blog/microcks-1.8.0-help-modal.png" >}}
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
 </div>
 
 ## Open to Shift-Left eXperiences!

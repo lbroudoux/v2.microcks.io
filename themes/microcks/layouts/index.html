@@ -34,7 +34,7 @@
     <div class="mt-3">
       {{ if .button.enable }}
       {{ with .button }}
-      <a href="" class="btn btn-primary">Get Started</a>
+      <a href="{{ .getstarted | safeURL }}" class="btn btn-primary">Get Started</a>
       <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
       {{ end }}
       {{ end }}
@@ -45,7 +45,7 @@
   </div>
   <div class="herobanner-right">
     <div class="herobanner-image">
-      {{ partial "image" (dict "Src" .Atom "Alt" "Microcks Atom Schema") }}
+      {{ partial "image" (dict "Src" .atom "Alt" "Microcks covers “ALL” Kind of API") }}
     </div>
   </div>
 </section>

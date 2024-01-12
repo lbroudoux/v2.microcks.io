@@ -1,5 +1,6 @@
 // Color Variables
-{{ with site.Params.variables }}$color-primary: {{.color_primary | default "#0AA8A7"}};
+{{ with site.Params.variables }}
+$color-primary: {{.color_primary | default "#0AA8A7"}};
 $color-secondary: {{.color_secondary | default "#376f92"}};
 $text-color: {{.text_color | default "#777"}};
 $text-dark: {{.text_dark | default "#222"}};

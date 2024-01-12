@@ -9,6 +9,8 @@
 # color_primary = "#0AA8A7" # theme default
 color_primary = "#46AAF3" # like microcks logo (light blue)
 #color_primary = "#2096F3" # like microcks logo (strong blue)
+#color_primary = "#83d0f0" # like true microcks logo (light blue)
+
 color_secondary = "#376f92"
 
 body_color = "#fff"

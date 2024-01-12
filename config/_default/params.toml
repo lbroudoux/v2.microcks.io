@@ -48,7 +48,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format. example - 
 [navigation_button]
 enable = true
 label = "Get Started"
-link = "https://microcks.io/documentation/getting-started/"
+link = "./documentation/getting-started/"
 
 # Crisp Chat
 [crisp_chat]
@@ -129,4 +129,9 @@ link = "https://www.youtube.com/c/Microcks"
 title = "Slack"
 icon = "fab fa-slack" # themify icon : https://themify.me/themify-icons
 link = "https://cloud-native.slack.com/messages/microcks"
+
+[[social]]
+title = "Discord"
+icon = "fab fa-discord" # themify icon : https://themify.me/themify-icons
+link = "https://microcks.io/discord-invite"
 
