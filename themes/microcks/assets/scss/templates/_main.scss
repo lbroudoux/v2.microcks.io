@@ -1,8 +1,5 @@
-ul {
+* {
   list-style: none;
-}
-ol {
-  list-style: decimal;
 }
 
 // banner
@@ -395,6 +392,7 @@ ol {
 .doc-container-fluid {
   --bs-gutter-x: 4.5rem;
   max-width: 1860px;
+  width: 100%;
 
   @include tablet {
     --bs-gutter-x: 3rem;
@@ -600,6 +598,7 @@ ol {
 
   &>img {
     border-radius: 5px;
+    margin: 2.5vh 0;
   }
 
   * {

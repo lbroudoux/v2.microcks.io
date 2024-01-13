@@ -378,6 +378,11 @@
   transition: .2s ease;
   background: $white;
   border-bottom: 1px solid $border-color;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 
   .form-inline button {
     transition: 0s;
