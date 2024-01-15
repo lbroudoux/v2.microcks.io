@@ -557,6 +557,10 @@ ol {
   .parent ul a {
     color: $dark-text-light;
   }
+
+  li a {
+    color: $dark-text-light;
+  }
 }
 
 .doc-page-list {
@@ -578,6 +582,15 @@ ol {
       @include mobile {
         font-size: 18px;
       }
+    }
+  }
+}
+
+/* dark style docpage */
+.dark .doc-page-list {
+  ul {
+    a {
+      color: $dark-text-light;
     }
   }
 }

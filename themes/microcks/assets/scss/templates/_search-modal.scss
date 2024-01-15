@@ -368,3 +368,23 @@
 .span-input-group {
   position: initial !important;
 }
+
+.dark .search-modal .modal-header {
+  background-color: $dark-body-bg;
+  box-shadow: none;
+  .search-form-control {
+    border: 2px solid #4e4e4e !important;
+  }
+}
+.dark .search-modal .modal-body {
+  background-color: $dark-body-bg;
+  box-shadow: none;
+}
+.dark .search-result-item {
+  .section {
+    color: $dark-text-light;
+  }
+  .block {
+    background-color: lighten($dark-body-bg, 3);
+  }
+}
