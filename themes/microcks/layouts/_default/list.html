@@ -5,7 +5,7 @@
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog") (eq .Type site.Params.blogCategoryType)) (or (eq .Section "categories") (eq .Section "tags") )}}
 
-<section class="section mt-4">
+<section class="section mt-4 pt-4">
   <div class="container">
     <div class="row gx-md-5 gy-6">
       {{ range first 1 (where site.RegularPages "Type" "featured") }}

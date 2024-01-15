@@ -394,7 +394,7 @@ ol {
 
 .doc-container-fluid {
   --bs-gutter-x: 4.5rem;
-  max-width: 1860px;
+  width: 100%;
 
   @include tablet {
     --bs-gutter-x: 3rem;
@@ -552,6 +552,13 @@ ol {
   }
 }
 
+/* dark style sidenav */
+.dark .doc-sidenav {
+  .parent ul a {
+    color: $dark-text-light;
+  }
+}
+
 .doc-page-list {
   list-style-type: none;
 
@@ -600,6 +607,7 @@ ol {
 
   &>img {
     border-radius: 5px;
+    margin: 2.5vh 0;
   }
 
   * {
@@ -761,24 +769,33 @@ ol {
     }
   }
 
-  ul {
+  ul, ol {
     padding-left: 0;
     margin-bottom: 10px;
     padding-left: 10px;
+    list-style: none;
   }
 
-  &>ul {
+  &>ul, &>ol {
     padding-top: 30px;
 
     &>li:not(:last-child) {
-      border-bottom: 1px solid $border-color;
+      //border-bottom: 1px solid $border-color;
     }
   }
 }
 
+// dark table of content
+.dark #TableOfContents {
+  background-color: $dark-body-bg !important;
+}
+.dark #TableOfContents > ol > li > a, .dark #TableOfContents > ol > li > ol > li > a {
+  color: $dark-text-light !important;
+}
+
 // padding-left layout
 .padding-layout {
-  padding: 0 2.25rem;
+  padding: 0 1.5rem;
 }
 
 // copy to clipboard

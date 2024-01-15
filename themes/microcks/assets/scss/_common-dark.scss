@@ -11,6 +11,11 @@
   .sun {
     transition: 0.35s;
   }
+
+  @include mobile {
+    margin-left: 10px;
+    margin-top: -4px; // for better alignment
+  } 
 }
 
 .dark .theme-switcher {

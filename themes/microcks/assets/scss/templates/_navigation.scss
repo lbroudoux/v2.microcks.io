@@ -316,7 +316,7 @@
 }
 
 // dark style
-.dark .navigation {
+.dark .navigation, .dark .doc-navigation {
 
   background-color: $dark;
 
@@ -324,6 +324,9 @@
     color: $white;
   }
 
+  .navbar-toggler {
+    color: darken($white, 13.33);
+  }
   .navbar-light .navbar-toggler {
     color: darken($white, 13.33);
   }
@@ -362,6 +365,11 @@
     }
   }
 
+  @media (max-width: 991px) {
+    .navbar-toggler i {
+      color: darken($white, 13.33);
+    }
+  }
   @media (min-width: 992px) {
     .navbar .dropdown-menu {
       background-color: transparent;
@@ -379,6 +387,12 @@
   background: $white;
   border-bottom: 1px solid $border-color;
 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  
   .form-inline button {
     transition: 0s;
   }
@@ -525,6 +539,16 @@
     .form-control{
       width: 100%;
     }
+  }
+}
+
+.search-wrapper>button {
+  background-color: $white;
+}
+.dark .search-wrapper>button {
+  background-color: $dark;
+  i {
+    color: darken($white, 13.33);
   }
 }
 // end modifications

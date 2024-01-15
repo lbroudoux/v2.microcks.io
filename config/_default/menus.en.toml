@@ -31,44 +31,38 @@ weight = 5
   name = "Using"
   weight = 5
   identifier = "using"
-  url = "using/"
+  url = "/documentation/using"
 
 [[docs]]
   name = "Installing"
   weight = 15
   identifier = "installing"
-  url = "installing/"
+  url = "/documentation/installing"
 
 [[docs]]
   name = "Automating"
   weight = 20
   identifier = "automating"
-  url = "/automating"
+  url = "/documentation/automating"
 
 [[docs]]
   name = "Administrating"
   weight = 21
   identifier = "administrating"
-  url = "/administrating"
+  url = "/documentation/administrating"
 
 [[docs]]
   name = "Guides"
   weight = 22
   identifier = "guides"
   post = "break"
-  url = "guides"
+  url = "/documentation/guides"
 
 [[docs]]
   name = "Resources"
   weight = 25
   identifier = "resources"
-  url = "/resources/"
-
-[[docs]]
-  name = "Community"
-  weight = 30
-  identifier = "community"
-  url = "/community/"
+  url = "/documentation/resources/"
 
 # footer menu left
 [[footer_left]]

@@ -48,7 +48,22 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format. example - 
 [navigation_button]
 enable = true
 label = "Get Started"
-link = "./documentation/getting-started/"
+link = "/documentation/getting-started/"
+
+# Call to action
+[call_to_action]
+enable  = true
+title  = "Still Didn't Find Your Answer?"
+#image  = "images/none.jpg"
+# image do not exists, hack to not have a missing icon on the site 
+# image source: https://medium.com/nerd-for-tech/why-should-you-get-involved-in-an-open-source-community-f5516657324
+image = "images/oss-community.jpeg"
+content = "Join our community and get the help you need. Engage with other members, ask questions, and share knowledge to resolve your queries and expand your understanding."
+
+[call_to_action.button]
+enable  = true
+label  = "Join the community"
+link  = "https://microcks.io/community/"
 
 # Crisp Chat
 [crisp_chat]
