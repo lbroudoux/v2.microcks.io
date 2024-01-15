@@ -447,6 +447,11 @@
       }
     }
   }
+
+  li.nav-item.active a {
+    background-color: #F5F5F5;
+    border-radius: 6px;
+  }
 }
 
 // start modifications
@@ -549,6 +554,31 @@
   background-color: $dark;
   i {
     color: darken($white, 13.33);
+  }
+}
+
+.doc-desktop-nav .nav-link {
+  color: $text-dark;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+.doc-desktop-nav .nav-item.active .nav-link {
+  color: $color-primary;
+}
+
+@media screen and (max-width: 761px) {
+  .doc-desktop-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 762px) {
+  .doc-desktop-nav {
+    padding-left: 60px;
+  }
+  .doc-mobile-nav {
+    display: none;
   }
 }
 // end modifications

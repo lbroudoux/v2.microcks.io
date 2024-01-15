@@ -21,7 +21,7 @@ weight = 4
 
 [[main]]
 name = "Docs"
-url = "/documentation"
+url = "/documentation/"
 weight = 5
 
 

@@ -8478,6 +8478,10 @@ body.dark {
         display: none; }
       .doc-navigation .navbar-toggler[aria-expanded="true"] .fa-xmark {
         display: block; } }
+  .doc-navigation li.nav-item.active a {
+    background-color: #F5F5F5;
+    border-radius: 6px; }
+
 .nav-group {
   display: flex;
   align-items: center; }
@@ -8549,6 +8553,24 @@ body.dark {
   background-color: #1b2229; }
   .dark .search-wrapper > button i {
     color: #dddddd; }
+
+.doc-desktop-nav .nav-link {
+  color: #222; }
+  .doc-desktop-nav .nav-link:hover {
+    color: #46AAF3; }
+
+.doc-desktop-nav .nav-item.active .nav-link {
+  color: #46AAF3; }
+
+@media screen and (max-width: 761px) {
+  .doc-desktop-nav {
+    display: none; } }
+
+@media screen and (min-width: 762px) {
+  .doc-desktop-nav {
+    padding-left: 60px; }
+  .doc-mobile-nav {
+    display: none; } }
 
 ul {
   list-style: none; }

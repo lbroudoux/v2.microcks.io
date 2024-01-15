@@ -121,6 +121,8 @@
       "d-xl-block",
       "doc-container-fluid",
       "doc-content",
+      "doc-desktop-nav",
+      "doc-mobile-nav",
       "doc-navigation",
       "doc-page-list",
       "doc-pagination",

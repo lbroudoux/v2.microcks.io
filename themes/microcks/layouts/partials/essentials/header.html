@@ -23,7 +23,33 @@
 
       <!-- for desktop and mobile -->
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav me-auto align-items-center">
+        <ul class="navbar-nav me-auto align-items-center doc-desktop-nav">
+          <!-- menu active -->
+          {{ $currentPage := . }}
+          {{ range site.Menus.main }}
+          {{ $menuURL := .URL | absLangURL }}
+          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+          {{ $active := eq $menuURL $pageURL }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              {{ .Name }}
+            </a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item {{ if $active }}active{{ end }}">
+            <a class="nav-link" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+
+        <ul class="navbar-nav me-auto align-items-center doc-mobile-nav">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
           </li>
