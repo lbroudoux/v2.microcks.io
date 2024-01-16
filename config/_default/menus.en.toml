@@ -58,12 +58,6 @@ weight = 5
   post = "break"
   url = "/documentation/guides"
 
-[[docs]]
-  name = "Resources"
-  weight = 25
-  identifier = "resources"
-  url = "/documentation/resources/"
-
 # footer menu left
 [[footer_left]]
 name = "Quick Start"

@@ -4,7 +4,10 @@ banner:
   title : "Open source cloud-native tool for API Mocking and Testing"
   image : "images/cncf-sandbox-horizontal-color.svg"
   atom : "images/atom.svg"
-  content : "A **dynamic**, **interconnected ecosystem** to help crafting **customized**, **multi-protocol universal** API **value chain**, powered by **cloud-native automation & standards** #APIOps"
+  #content : "A **dynamic**, **interconnected ecosystem** to help crafting **customized**, **multi-protocol universal** API **value chain**, powered by **cloud-native automation & standards** #APIOps"
+  #content : "Microcks leverages API standards to provide uniform and multi-protocol approach, empowering your API and microservices lifecycle. It strengthen your ecosystem for crafting customized and versatile API value chain. #APIDevOps"
+  #content : "Microcks leverages **API standards** to provide a **uniform and multi-protocol approach**, empowering your API and microservices lifecycle. Powered by **cloud-native automation**, it interconnects your API **value chain** ecosystem. #APIDevOps"
+  content : "Microcks leverages **API standards** to provide a **uniform and multi-protocol approach**, empowering your API and microservices lifecycle. It strengthens your **ecosystem** to create an adaptable API **value chain** #APIDevOps"
   button:
     enable : true
     #label : "Microcks is a Cloud Native Computing Sandbox project 🚀"
@@ -22,7 +25,8 @@ screenshot:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Microcks is fully [community-driven](https://github.com/microcks/microcks/graphs/contributors) & focused <br> on solving [Enterprises](https://github.com/microcks/.github/blob/main/ADOPTERS.md)' pains 🙌"
+  #title: "Microcks is fully [community-driven](https://github.com/microcks/microcks/graphs/contributors) & focused <br> on solving [Enterprises](https://github.com/microcks/.github/blob/main/ADOPTERS.md)' pains 🙌"
+  title: Microcks is fully [community-driven](https://github.com/microcks/microcks/graphs/contributors) <br/> Check our [Adopters](https://github.com/microcks/.github/blob/main/ADOPTERS.md) file
 
 ########################## Clients Logo Slider #########################
 clients_logo_slider:
@@ -38,6 +42,7 @@ clients_logo_slider:
   - "images/adopters/Sesam-Vitale.png"
   - "images/adopters/societe-generale.png"
   - "images/adopters/akwatype.png"
+  - "images/adopters/assurance-maladie.png"
   - "images/adopters/codecentric.png"
 
 ######################### Intro Video #####################
@@ -98,10 +103,10 @@ service:
 tools_intregrate_sponsor:
   enable : true
   title : "Sponsored by"
-  content: "These great organizations are already sponsoring Microcks. Want to become a sponsor? Join our [Open collective](https://opencollective.com/microcks) or [Email us](mailto:info@microcks.io)."
+  content: "These great organizations are already sponsoring Microcks. Want to become a sponsor? Join our [Open collective](https://opencollective.com/microcks) or [Contact us](https://github.com/microcks/microcks/blob/master/MAINTAINERS.md) for more info."
   # dirty hack with a 1x1px png transparent image, but it work
-  #image : "images/1x1-00000000"
-  image : "images/sponsor/sponsors-join-us.png"
+  image : "images/1x1-00000000"
+  #image : "images/sponsor/sponsors-join-us.png"
   
   tools:
   - "images/sponsor/Postman.png"
@@ -109,7 +114,7 @@ tools_intregrate_sponsor:
 tools_intregrate_support:
   enable : true
   title : "Supported by"
-  content: "The following companies support us by letting us use their products for free. Interested in supporting us too? [Email us](mailto:info@microcks.io) for more info."
+  content: "The following companies support us by letting us use their products for free. Interested in supporting us too? [Contact us](https://github.com/microcks/microcks/blob/master/MAINTAINERS.md) for more info."
   # dirty hack with a 1x1px png transparent image, but it work
   image : "images/1x1-00000000"
   

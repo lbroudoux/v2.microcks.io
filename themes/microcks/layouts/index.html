@@ -40,7 +40,9 @@
       {{ end }}
     </div>
     <div class="cloud-native-sandbox">
-      {{ partial "image" (dict "Src" .image "Alt" "banner image" "Size" "300x") }}
+      <a href="https://landscape.cncf.io/?selected=microcks" title="Microcks is a Cloud Native Computing Sandbox project 🚀">
+        {{ partial "image" (dict "Src" .image "Alt" "banner image" "Size" "300x") }}
+      </a>
     </div>
   </div>
   <div class="herobanner-right">
@@ -249,8 +251,15 @@
         {{ end }}
       </div>
     </div>
+    <div class="row mt-4">
+      <div class="col-lg-6 text-center mx-auto pt-3">
+        <a href="https://opencollective.com/microcks/donate" target="_blank">
+          <img src="https://opencollective.com/microcks/donate/button@2x.png?color=blue" width=380 />
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="section pb-0">
+  <div class="section pb-0 pt-5">
     {{ partial "image" (dict "Src" .image "Alt" "call to action" "Class" "w-100") }}
   </div>
 </section>
