@@ -25,7 +25,6 @@ screenshot:
 ##################### Feature ##########################
 feature:
   enable : true
-  #title: "Microcks is fully [community-driven](https://github.com/microcks/microcks/graphs/contributors) & focused <br> on solving [Enterprises](https://github.com/microcks/.github/blob/main/ADOPTERS.md)' pains 🙌"
   title: Microcks is fully [community-driven](https://github.com/microcks/microcks/graphs/contributors) <br/> Check our [Adopters](https://github.com/microcks/.github/blob/main/ADOPTERS.md) file
 
 ########################## Clients Logo Slider #########################
@@ -46,13 +45,13 @@ clients_logo_slider:
   - "images/adopters/codecentric.png"
 
 ######################### Intro Video #####################
-#intro_video:
-#  enable: true
-#  title: "Built exclusively for you"
-#  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate #egestas sollicitudin."
-#  video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
-#  video_thumbnail: "images/video-popup.jpg"     
-      
+intro_video:
+  enable: true
+  title: "Getting Started in 3 minutes 🔥"
+  content: "Effortlessly set up and deploy Microcks in your existing [Docker environment](https://www.docker.com/blog/get-started-with-the-microcks-docker-extension-for-api-mocking-and-testing/), eliminating the need for extensive configurations 🚀"
+  video_url: "https://www.youtube.com/embed/E8rjUwznO-Q"
+  video_thumbnail: "images/community/Docker-desktop-youtube.png"
+
 ######################### Service #####################
 service:
   enable : true
