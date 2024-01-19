@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # Added by Yada
+._*
 .DS_Store
 resources/_gen/
-

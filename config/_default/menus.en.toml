@@ -5,24 +5,48 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Docs"
+url = "/documentation/"
+weight = 2
+
+[[main]]
 name = "Blog"
 url = "/blog/"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Community"
 url = "/community/"
-weight = 3
+weight = 4
 
 [[main]]
 name = "GitHub ⭐️"
 url = "https://github.com/microcks/microcks"
-weight = 4
+weight = 5
 
 [[main]]
-name = "Docs"
-url = "/documentation/"
-weight = 5
+parent = "Community"
+name = "About"
+url = "community/"
+weight = 1
+
+[[main]]
+parent = "Community"
+name = "Events"
+#name = "📢 Events"
+#pre = "<i class='dropdown-icon fas fa-users'></i>"
+#post = "<small class='dropdown-subtitle'><br>Meet and learn about .</small>"
+url = "community/events/"
+weight = 2
+
+[[main]]
+parent = "Community"
+name = "Logo"
+#name = "®️ Logo"
+#pre = "<i class='dropdown-icon fas fa-users'></i>"
+#post = "<small class='dropdown-subtitle'><br>Meet and learn about .</small>"
+url = "community/logo/"
+weight = 3
 
 
 ## Documentation Menus

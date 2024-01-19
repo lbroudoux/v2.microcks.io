@@ -54,6 +54,34 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- intro_video -->
+{{ with .Params.intro_video }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 text-center">
+        <h2 class="section-title h3">{{ .title | markdownify }}</h2>
+        <div class="content mb-5">
+          {{.content | markdownify}}
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-9">
+        <div class="has-video rounded-2 shadow video-loader">
+          <button type="button" class="video-loader-btn rounded-2" data-src="{{.video_url}}">
+            <i class="fas fa-play"></i>
+          </button>
+          {{ partial "image" (dict "Src" .video_thumbnail "Alt" "video thumbnail" "Size" "850x" "Class" "w-100 video-thumb rounded-2") }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /intro_video -->
 
 <!-- screenshot -->
 <!-- {{ with .Params.screenshot }}
@@ -128,35 +156,6 @@
 {{ end }}
 {{ end }}
 <!-- clients_logo_slider -->
-
-<!-- intro_video -->
-{{ with .Params.intro_video }}
-{{ if .enable }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6 text-center">
-        <h2 class="section-title h3">{{ .title | markdownify }}</h2>
-        <div class="content mb-5">
-          {{.content | markdownify}}
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-xl-9">
-        <div class="has-video rounded-2 shadow video-loader">
-          <button type="button" class="video-loader-btn rounded-2" data-src="{{.video_url}}">
-            <i class="fas fa-play"></i>
-          </button>
-          {{ partial "image" (dict "Src" .video_thumbnail "Alt" "video thumbnail" "Size" "850x" "Class" "w-100 video-thumb rounded-2") }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /intro_video -->
 
 <!-- service -->
 {{ with .Params.service }}
