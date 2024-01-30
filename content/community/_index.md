@@ -6,7 +6,6 @@ description: "Microcks community and ressources"
 draft: false
 layout: "how-it-works"
 
-
 ######################### how it works banner #####################
 banner:
   title: "For the Community, By the Community 🙌"
@@ -16,16 +15,6 @@ banner:
     enable: true
     label: "Join us on GitHub"
     link: "https://github.com/microcks"
-
-
-######################### Intro Video #####################
-intro_video:
-  enable: false
-  title: "Getting Started in 3 minutes 🔥"
-  content: "Effortlessly set up and deploy Microcks in your existing [Docker environment](https://www.docker.com/blog/get-started-with-the-microcks-docker-extension-for-api-mocking-and-testing/), eliminating the need for extensive configurations 🚀"
-  video_url: "https://youtu.be/E8rjUwznO-Q?feature=shared"
-  video_thumbnail: "images/community/Docker-desktop-youtube.png"
-
       
 ######################### how_it_works #####################
 # Use a even number to have a white area at the bottom
@@ -55,5 +44,5 @@ how_it_works:
 
   - title: "Logos and assets"
     image: "images/community/logo.png"
-    content: "Here are a few [ressources](https://github.com/cncf/artwork/blob/main/examples/sandbox.md#microcks-logos) in case you want to **show off your support** for Microcks, **integrate** Microcks, or want to **link back** to us. Please feel **free to borrow** these!" 
+    content: "Here are a few [ressources](https://microcks.io/logo/) in case you want to **show off your support** for Microcks, **integrate** Microcks, or want to **link back** to us. Please feel **free to borrow** these!" 
 ---
