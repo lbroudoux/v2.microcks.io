@@ -64,7 +64,7 @@ content = "Join our community and get the help you need. Engage with other membe
 [call_to_action.button]
 enable  = true
 label  = "Join the community"
-link  = "https://microcks.io/community/"
+link  = "/community/"
 
 # Crisp Chat
 [crisp_chat]
