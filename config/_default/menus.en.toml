@@ -27,25 +27,19 @@ weight = 5
 [[main]]
 parent = "Community"
 name = "About"
-url = "community/"
+url = "/community/"
 weight = 1
 
 [[main]]
 parent = "Community"
 name = "Events"
-#name = "📢 Events"
-#pre = "<i class='dropdown-icon fas fa-users'></i>"
-#post = "<small class='dropdown-subtitle'><br>Meet and learn about .</small>"
-url = "community/events/"
+url = "/events/"
 weight = 2
 
 [[main]]
 parent = "Community"
-name = "Logo"
-#name = "®️ Logo"
-#pre = "<i class='dropdown-icon fas fa-users'></i>"
-#post = "<small class='dropdown-subtitle'><br>Meet and learn about .</small>"
-url = "community/logo/"
+name = "Resources"
+url = "/logo/"
 weight = 3
 
 
