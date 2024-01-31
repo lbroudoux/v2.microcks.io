@@ -7,9 +7,10 @@ type: "regular"
 description: "Introducing Microcks Docker Desktop Extension 0.2: Enhanced Features and Increased Cadence 🚀"
 draft: false
 ---
+
 We are very excited to announce the availability of [Microcks Docker Desktop Extension](https://microcks.io/documentation/installing/docker-desktop-extension/) `0.2.0`! This new version of [our popular extension](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2) includes exciting enhancements designed to simplify and streamline API mocking and testing processes. This release focused on improving the user experience and expanding the extension's capabilities. We are also excited to announce that we are increasing the frequency of our releases to provide our users with more frequent updates and features.
 
-{{< image src="images/blog/docker-desktop-extension-0.2-feature.png" alt="image" zoomable="true" >}}
+{{< image src="images/blog/docker-desktop-extension-0.2-feature.png" alt="image">}}
 
 Our team has worked hard to make the Microcks Docker Desktop Extension more comprehensive and robust. 
 
