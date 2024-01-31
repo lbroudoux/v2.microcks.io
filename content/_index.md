@@ -66,7 +66,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://microcks.io/documentation/guides/"
+        link : "https://microcks.io/documentation/getting-started/"
         
     # service item loop
     - title : "Parallelizing developments by mocking all dependencies"
@@ -76,7 +76,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://microcks.io/documentation/getting-started/"
         
     # service item loop
     - title : "A consistent and universal approach for all types of API"
@@ -86,7 +86,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://microcks.io/documentation/getting-started/"
         
     # service item loop
     - title : "Run anywhere, thanks to containers and Kubernetes"
@@ -96,7 +96,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://microcks.io/documentation/getting-started/"
         
 ################### tools_intregrate ########################
 tools_intregrate_sponsor:
