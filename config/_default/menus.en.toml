@@ -39,7 +39,7 @@ weight = 2
 [[main]]
 parent = "Community"
 name = "Resources"
-url = "/logo/"
+url = "/resources/"
 weight = 3
 
 

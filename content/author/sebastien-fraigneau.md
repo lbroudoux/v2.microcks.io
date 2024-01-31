@@ -1,5 +1,5 @@
 ---
-title: "Sébastien Fraigneau"
+title: "Sebastien Fraigneau"
 image: "images/blog/bio/sfraigneau.jpg"
 social:
   - icon : "fab fa-linkedin-in"

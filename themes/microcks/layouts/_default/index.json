@@ -9,7 +9,7 @@
     "description": "{{ htmlEscape .Description}}",
     "searchKeyword": "{{ htmlEscape .Params.searchKeyword}}",
     "content": {{$e.Plain | jsonify}}
-  },
+  }{{- if eq $item $len -}}{{- else -}},{{- end -}}
 {{- end -}}
 
 {{- if .Section -}}

@@ -25,6 +25,8 @@ In this insightful session, we delved deep into the world of accelerating API de
 
 You can watch it ⏯️ https://youtu.be/2C2AqEpNAWI?si=rf0tvVOW315hmxTe
 
+{{< youtube 2C2AqEpNAWI >}}
+
 ##### When it was 
 🗓️ Tuesday February 13th, 2024<br>
 🕗 All day long, long days... 😎

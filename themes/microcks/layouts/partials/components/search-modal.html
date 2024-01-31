@@ -75,6 +75,7 @@
   });
 
   const buidResultItem = (innerItem, contentValue) => {
+    console.log("buidResultItem: " + contentValue);
     return `<a class="block" href="${innerItem.url}"><p class="text-dark mb-0 lh-base">${innerItem.title}</p><p class="small text-muted mt-1 mb-0 lh-base">${contentValue}</p></a>`;
   }
 
