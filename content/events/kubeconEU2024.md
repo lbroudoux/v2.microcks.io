@@ -10,7 +10,7 @@ logo: "images/events/kubeconEU-2024-paris-Mar19-24.png"
 
 {{< image title="Join us at the next KubeCon Paris 2024" w="1200" o="webp q100" p="center" c="img-fluid shadow rounded-1" src="images/events/kubeconEU-2024-paris-Mar19-24.png" alt="alter-text" >}}
 
-Join us in Paris for KubeCon + CloudNativeCon Europe 2024 
+Join us in Paris for KubeCon + CloudNativeCon Europe 2024 🔥
 
 ##### Info
 >The [Cloud Native Computing Foundation’s](https://www.cncf.io/) flagship conference gathers adopters and technologists from leading open source and cloud native communities in Paris, France from 19-22 March, 2024. 
