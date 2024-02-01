@@ -36,7 +36,7 @@ how_it_works:
         
   - title: "Events and records"
     image: "images/community/events.png"
-    content: "**Learn** more about Microcks and our next **events**, review **recorded talks**... Coming soon 🔜"
+    content: "**Learn** more about Microcks and our next [events](/events/), review or watch our [past recordings talks](/events/) ..."
       
   - title: "Community call"
     image: "images/community/call.png"

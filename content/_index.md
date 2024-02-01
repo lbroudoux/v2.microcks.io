@@ -14,7 +14,7 @@ banner:
     label : "♻️ 1.8.1 has just been released! 🚀"
     #link : "https://microcks.io/blog/microcks-joining-cncf-sandbox/"
     getstarted: ./documentation/getting-started/
-    link : "https://microcks.io/blog/microcks-1.8.1-release/"
+    link : "blog/microcks-1.8.1-release/"
 
 ################### Screenshot ########################
 screenshot:
@@ -66,7 +66,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://microcks.io/documentation/getting-started/"
+        link : "blog/jb-hunt-mock-it-till-you-make-it/"
         
     # service item loop
     - title : "Parallelizing developments by mocking all dependencies"
@@ -76,7 +76,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://microcks.io/documentation/getting-started/"
+        link : "https://youtu.be/2C2AqEpNAWI?feature=shared"
         
     # service item loop
     - title : "A consistent and universal approach for all types of API"
@@ -86,7 +86,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://microcks.io/documentation/getting-started/"
+        link : "documentation/using/"
         
     # service item loop
     - title : "Run anywhere, thanks to containers and Kubernetes"
@@ -96,7 +96,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://microcks.io/documentation/getting-started/"
+        link : "documentation/installing/"
         
 ################### tools_intregrate ########################
 tools_intregrate_sponsor:

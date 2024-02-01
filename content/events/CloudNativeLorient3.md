@@ -19,7 +19,7 @@ Microcks feels honored to have been selected as a speaker for a meetup focused o
 Although we will conduct this event and talk in French, English speakers are welcome (all of our slide decks are in English) and can fully participate in discussions with the local Java community.
 
 ##### When & Where
-🗓️ Thursday February 15th, 2024
+🗓️ Thursday February 15th, 2024<br>
 🕗 19:00 – 21:00 CET
 
 **CCI du Morbihan**<br>
