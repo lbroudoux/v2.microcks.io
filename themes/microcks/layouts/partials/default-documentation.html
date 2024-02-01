@@ -23,7 +23,13 @@
       <div class="col-xl-8 col-lg-9 col-md-8">
         <div class="px-lg-5 px-sm-4 pt-5">
           <h2 class="mb-4 fw-bold">{{ .Title }}</h2>
+          
           {{ if .Content }}
+          <span class="text-muted fw-300">🗓️ Last updated on {{ .Lastmod.Format "January 2, 2006" }} 
+            <span class="mx-1 text-dark-50 fw-300">|</span> <i class="far fa-clock text-dark me-1"></i> {{.ReadingTime}} {{i18n `min_read`}}
+            <span class="mx-1 text-dark-50 fw-300">|</span> <a href="https://github.com/microcks/microcks.io/edit/master/content/{{.File.Path}}" class="f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link">Improve this page</a>
+          </span>
+
           <div class="doc-content mt-4 pt-4" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="20">{{.Content}}
           </div>
           {{ else }}
