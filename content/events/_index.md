@@ -15,5 +15,5 @@ call_to_action:
   button:
     enable: true
     label: "Follow the community"
-    link: "/community/"
+    link: "/community/"      
 ---
