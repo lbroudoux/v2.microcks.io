@@ -34,7 +34,7 @@ clients_logo_slider:
   logos:
   - "images/adopters/BNP-Paribas.png"
   - "images/adopters/Deloitte.png"
-  - "images/adopters/Orange.png"
+  #- "images/adopters/Orange.png"
   - "images/adopters/JB-Hunt.png"
   - "images/adopters/la-poste-groupe.png"
   - "images/adopters/Lombard_Odier.png"
@@ -43,6 +43,7 @@ clients_logo_slider:
   - "images/adopters/akwatype.png"
   - "images/adopters/assurance-maladie.png"
   - "images/adopters/codecentric.png"
+  - "images/adopters/inetum.png"
 
 ######################### Intro Video #####################
 intro_video:
