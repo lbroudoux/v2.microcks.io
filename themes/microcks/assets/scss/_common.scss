@@ -288,6 +288,12 @@ form label {
   }
 }
 
+// force single hieght in code blocks
+.content > div > pre > code > span {
+  margin-bottom: 0 !important;
+  font-size: 100%;
+}
+
 // content style
 .content {
   * {
